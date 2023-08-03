@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT License
 pragma solidity ^0.8.0;
 
-constant Fallback {
+contract Fallback {
     uint256 public result;
 
     receive() external payable {
@@ -11,4 +11,4 @@ constant Fallback {
     fallback() external payable {
         result = 2;
     }
- }
+}
