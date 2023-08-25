@@ -6,7 +6,6 @@
   "author": "",
   "license": "ISC",
   "engines": {
-    "node": ">18.0.0",
-    "pnpm": ">=8"
+    "node": ">18.0.0"
   }
 }
